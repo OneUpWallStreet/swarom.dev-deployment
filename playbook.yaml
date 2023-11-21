@@ -1,0 +1,14 @@
+- name: Build swarom.dev
+  hosts: virtualmachines
+  tasks:
+    - name: Build Website
+      shell: |
+        cd /var/www/swarom.me
+        sudo git pull origin main
+        sudo npm run build
+      register: cmd_output
+      ignore_errors: true
+
+    - name: Print command output
+      debug:
+        var: cmd_output.stdout_lines
