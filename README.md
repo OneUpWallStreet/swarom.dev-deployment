@@ -1,6 +1,6 @@
 # Deployment Process for Swarom.dev
 
-![Alt text](</Assets/header.png>)
+![Alt text](/Assets/header.png){:width="50%"}
 
 There may be more advanced methods available, but the following is my current procedure.
 
