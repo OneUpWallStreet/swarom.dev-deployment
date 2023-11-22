@@ -8,4 +8,4 @@ During my last internship, I had the opportunity to explore Ansible and found it
 
 After making changes to the website on my local machine, in order to deploy the website, I just need to run the command `swarom.dev` in my terminal. This is an alias that simply executes the `run.sh` script.
 
-For a more detailed discussion on how this operates, you can checkout [swarom.dev/posts](https://www.swarom.dev/posts/).
+For a more detailed discussion on how this operates, you can checkout [swarom.dev/posts/ansible-ec2-deployment](https://swarom.dev/posts/ansible-ec2-deployment).
