@@ -1,12 +1,17 @@
 - name: Build swarom.dev
+  # The host information is stored in inventory.yaml
   hosts: virtualmachines
   tasks:
     - name: Build Website
+      # Shell script basically automates what I was doing manually every time
       shell: |
         cd /var/www/swarom.me
         sudo git pull origin main
         sudo npm run build
       register: cmd_output
+      # Some browser tests fail in the VM because it lacks access to them. 
+      # I need to address this issue, but for now.
+      # I'm ignoring those errors as they are not relevant
       ignore_errors: true
 
     - name: Print command output
