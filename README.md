@@ -1,6 +1,9 @@
 # Deployment Process for Swarom.dev
 
-![Alt text](/Assets/header.png){:width="50%"}
+<p align="center">
+  <img src="/Assets/header.png" alt="Alt text" width="400">
+</p>
+
 
 There may be more advanced methods available, but the following is my current procedure.
 
